@@ -1,11 +1,15 @@
 h1{
     color:white;
+    text-shadow: 2px 2px 4px #000000;
 }
 h2, h3{
     color: #3f51b5;
+    text-shadow: 2px 2px 4px #000000;
 }
 a{
     text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
 }
 .container{
     background:#38383d;
@@ -16,7 +20,8 @@ a{
 }
 @media(max-width:500px){
     .container{
-        background:#38383d;
+        /*background:#38383d;*/
+        background:white;
     }
 }
 
@@ -55,14 +60,30 @@ button:hover{
     flex-direction: column;
     width:100%;
 }
-.Store{
+.Convenience{
+    border:1px solid red;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+}
+.Anonymity{
+    border:1px solid yellow;
+    display:flex;
+    align-items:center;
+}
+.Features{
+    border:1px solid yellow;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.Features img{
     border:1px solid red;
 }
-
-
-.Sponsors{
-    border:1px solid orange;
+.Clients{
+    border:1px solid yellow;
 }
+
 footer{
     border:1px solid red;
 }
