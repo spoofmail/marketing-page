@@ -7,36 +7,31 @@ h2, h3{
     text-shadow: 2px 2px 4px #000000;
 }
 a{
+    border:1px solid red;
     text-decoration: none;
     color:white;
     text-shadow: 2px 2px 4px #000000;
+    margin:0 50px;
 }
 .container{
     background:#38383d;
-    max-width: auto;
+    max-width: 100%;
     margin:0 auto;
     border:2px solid red;
     padding: 20px 1.25%;
 }
-@media(max-width:500px){
-    .container{
-        /*background:#38383d;*/
-        background:white;
-    }
-}
-.headline img{
-    width:1200px;
-    height:500px;
-}
+
 .Navigation-Bar{
     border:1px solid red;
+    background: #3f51b5;
     display:flex;
     align-items:center;
     justify-content: center;
 }
 .Navigation-container{
-    font-size:24px;
     border:1px solid red;
+    width:800px;
+    font-size:24px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -51,22 +46,33 @@ header{
 header button{
     background:#3f51b5;
     color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }
 button:hover{
     background:#303f9f;
     color:white;
+    border-color:#3f51b5;
 }
 
 .Main-Section{
     border:1px solid blue;
     display:flex;
     flex-direction: column;
-    width:100%;
+    /*width:100%;*/
 }
 .Main-Section img{
     border:1px solid red;
     width:75px;
     height:75px;
+}
+.Convenience-h2{
+    display:flex;
+    justify-content: flex-end;
 }
 .Convenience{
     border:1px solid red;
@@ -74,10 +80,31 @@ button:hover{
     flex-direction:row-reverse;
     align-items:center;
 }
+.Convenience-header-img {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.Convenience h2{
+    border:1px solid red;
+}
+.Anonymity-h2{
+    display:flex;
+    justify-content: flex-start;
+}
 .Anonymity{
     border:1px solid yellow;
     display:flex;
     align-items:center;
+}
+.Anonymity-header-img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.Secure-h2{
+    display:flex;
+    justify-content: flex-end;
 }
 .Secure{
     border:1px solid yellow;
@@ -85,11 +112,19 @@ button:hover{
     flex-direction:row-reverse;
     align-items:center;
 }
+.Secure-header-img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.Features-h2{
+    display:flex;
+    justify-content: center;
+}
 .Features{
     border:1px solid yellow;
     display:flex;
-    align-items:flex-end;
-    justify-content: center;
+    justify-content: space-between;
 }
 .Features img{
     border:1px solid red;
@@ -104,6 +139,29 @@ footer{
 }
 footer h3{
     border:1px solid red;
+}
+
+/*MEDIA QUERIES*/
+@media(max-width:500px){
+    .container{
+        /*background:#38383d;*/
+        background:white;
+    }
+    .Navigation-Bar{
+        border:1px solid red;
+        background: #3f51b5;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .Navigation-container{
+        border:1px solid red;
+        width:800px;
+        font-size:24px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*stylistic images
