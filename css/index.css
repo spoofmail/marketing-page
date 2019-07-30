@@ -11,7 +11,6 @@ a{
     text-decoration: none;
     color:white;
     text-shadow: 2px 2px 4px #000000;
-    margin:0 50px;
 }
 .container{
     background:#38383d;
@@ -30,11 +29,15 @@ a{
 }
 .Navigation-container{
     border:1px solid red;
-    width:800px;
+    background: #3f51b5;
     font-size:24px;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+.Nav-Links{
+    display:flex;
+    justify-
 }
 
 header{
@@ -124,7 +127,7 @@ button:hover{
 .Features{
     border:1px solid yellow;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .Features img{
     border:1px solid red;
@@ -156,7 +159,6 @@ footer h3{
     }
     .Navigation-container{
         border:1px solid red;
-        width:800px;
         font-size:24px;
         display:flex;
         flex-direction: column;
