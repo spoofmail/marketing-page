@@ -5,12 +5,16 @@ h1{
 h2, h3{
     color: #3f51b5;
     text-shadow: 2px 2px 4px #000000;
+    font-size:30px;
 }
 a{
     border:1px solid red;
     text-decoration: none;
     color:white;
     text-shadow: 2px 2px 4px #000000;
+}
+p{
+    font-size:20px;
 }
 .container{
     box-sizing:border-box;
@@ -52,6 +56,7 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
+    
 }
 header button{
     background:#3f51b5;
@@ -77,30 +82,33 @@ button:hover{
 }
 .Main-Section img{
     border:1px solid red;
-    max-width:40%;
+    max-width:30%;
     height:auto;
 }
 .Convenience-h2{
     display:flex;
     justify-content: flex-end;
+    padding:0 25px;
 }
 .Convenience{
     border:1px solid red;
     display:flex;
     flex-direction:row-reverse;
-    align-items:center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.Convenience p{
+    border:1px solid red;
 }
 .Convenience-header-img {
-    display:flex;
+    /*display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-}
-.Convenience h2{
-    border:1px solid red;
+    justify-content: space-evenly;*/
 }
 .Anonymity-h2{
     display:flex;
     justify-content: flex-start;
+    padding:0 25px;
 }
 .Anonymity{
     border:1px solid yellow;
@@ -115,6 +123,7 @@ button:hover{
 .Secure-h2{
     display:flex;
     justify-content: flex-end;
+    padding:0 25px;
 }
 .Secure{
     border:1px solid yellow;
@@ -157,40 +166,35 @@ footer h3{
         /*background:#38383d;*/
         background:white;
     }
-    .Navigation-Bar{
+    header{
         border:1px solid red;
-        background: #3f51b5;
-        display:flex;
-        align-items:center;
-        justify-content: center;
-    }
-    .Navigation-container{
-        border:1px solid red;
-        font-size:24px;
         display:flex;
         flex-direction: column;
         align-items: center;
+        
     }
-}
-
-/*stylistic images
-#headline {
-  padding: 0.8em;
-  color: white;
-  font-family: Roboto, sans-serif;
-  background-image: url(backgroundimage.jpg);
-  background-size: cover;
-
-  .container{
-    background:tan;
-    max-width: 800px;
-    margin:0 auto;
-    border:2px solid black;
-    padding: 20px 1.25%;
-}
-@media(max-width:500px){
-    .container{
-        background:green;
+    header button{
+        font-size: 28px;
+        width:100%;
     }
+    .Convenience-h2{
+        justify-content: center;
+    }
+    .Anonymity-h2{
+        justify-content: center;
+    }
+    .Anonymity{
+        display:flex;
+        align-items:center;
+        padding:10px;
+    }
+    .Secure-h2{
+        justify-content: center;
+    }
+    .Secure{
+        display:flex;
+        align-items:center;
+        padding:10px;
+    }
+    
 }
-}*/
