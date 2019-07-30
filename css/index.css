@@ -24,7 +24,10 @@ a{
         background:white;
     }
 }
-
+.headline img{
+    width:1200px;
+    height:500px;
+}
 .Navigation-Bar{
     border:1px solid red;
     display:flex;
@@ -60,6 +63,11 @@ button:hover{
     flex-direction: column;
     width:100%;
 }
+.Main-Section img{
+    border:1px solid red;
+    width:75px;
+    height:75px;
+}
 .Convenience{
     border:1px solid red;
     display:flex;
@@ -85,6 +93,8 @@ button:hover{
 }
 .Features img{
     border:1px solid red;
+    width:75px;
+    height:75px;
 }
 
 footer{
