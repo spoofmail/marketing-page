@@ -45,14 +45,6 @@ p {
     
 }
 
-/*.first-half {
-    display: flex;
-    flex-direction: column;
-    background-image: url("got-mail.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;     
-
-}*/
 
 .container header {
     width: 100%;
@@ -62,11 +54,7 @@ p {
     margin-top: 2%;
     border-radius: 2%;  
     
-    
-    /*box-shadow: 0px 0px 2px 0px #333434;*/
-    /*background-image: url("got-mail.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% auto; */
+       
         
 }
 
@@ -116,9 +104,9 @@ header nav {
 }
 
 header nav a {
-    display: block;
-    margin:10px 0;
-    padding:10px 20px;
+    /*display: block;*/
+    margin:2% 0;
+    padding:2%;
     text-decoration: none;
     color: #3e3e3e;    
     font-size: 2rem;    
@@ -147,7 +135,8 @@ header nav a {
     
     background-image: url("../images/spoofmail-cta-image.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;    
+    /*background-size: 100% auto;    */
+    background-size: cover;    
     opacity: 0.8; 
         
 }
@@ -354,25 +343,30 @@ header nav a {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
+    
 }
 
 .feature-one-img {
     background-image: url("../images/spam-mail-box.jpg");
+    background-size: cover;
 
 }
 
 .feature-two-img {
     background-image: url("../images/email-symbol.jpg");
+    background-size: cover;
 
 }
 
 .feature-three-img {
     background-image: url("../images/spam-mail-box.jpg");
+    background-size: cover;
 
 }
 
 .feature-four-img {
     background-image: url("../images/email-symbol.jpg");
+    background-size: cover;
 
 }
 
@@ -556,14 +550,16 @@ footer #copyright {
         
     }
     
-    header nav a {
+    /*header nav a {
         display: block;
         margin: 1% 0;
         padding:2% 2%;           
         font-size: 2rem;    
         letter-spacing: 1%;
         font-weight: bold;
-    }
+    }*/
+
+    
 
      /**************CALL TO ACTION SECTION - TABLET*******************************/
      .container .call-to-action-section {
@@ -658,8 +654,8 @@ footer #copyright {
     }
 
     .carousel-image img{
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
     }
     
     
@@ -895,7 +891,7 @@ footer {
     }
 
    
-    /********************CAROUSEL STYLES***********************/
+    /********************CAROUSEL STYLES - MOBILE***********************/
 
     /* Slideshow container */
     .slideshow-container {
@@ -958,8 +954,8 @@ footer {
     }
 
     .carousel-image img{
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
     }
     
     
