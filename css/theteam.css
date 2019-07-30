@@ -1,0 +1,257 @@
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    /*background-color: #e9ebee;*/
+    background-color: white;   
+   
+    /*background-color: #f9cb80;*/
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.section-header-text {
+    color: dodgerblue;
+    font-size: 3.5rem;    
+    letter-spacing: 5%;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  
+    
+}
+
+/*.first-half {
+    display: flex;
+    flex-direction: column;
+    background-image: url("got-mail.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;     
+
+}*/
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    border-radius: 2%;  
+    
+    
+    /*box-shadow: 0px 0px 2px 0px #333434;*/
+    /*background-image: url("got-mail.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+        
+}
+
+.logo-section {
+    width: 40%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-icon-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    
+}
+
+header .logo-section .logo-icon-div .spoof-mail-icon {
+    color: black;
+    font-size: 5rem;
+}
+
+.logo-text-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 3.5rem;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    
+}
+
+.logo-text-div .logo-spoof-text {
+    color: #e65100;
+}
+
+header nav {
+    width: 60%;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    display: block;
+    margin:10px 0;
+    padding:10px 20px;
+    text-decoration: none;
+    color: #3e3e3e;    
+    font-size: 2rem;    
+    letter-spacing: 5%;
+    font-weight: bold;
+}
+
+.container .team-intro-div {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .team-section {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:space-between;
+    
+}
+
+.container .team-section .team-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    
+    
+}
+
+
+/*center the last row of images**/
+.container .team-section .team-div:last-child {
+    justify-content: center;
+    
+}
+
+.container .team-section .team-div .team-images-div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    /*border: 1px solid orange;*/
+
+}
+
+/*******************************TEAM PICTURES********************************/
+    .picture-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: 90%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        
+      }
+      
+      .picture-container:hover .image {
+        opacity: 0.3;
+      }
+      
+      .picture-container:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        background-color: dodgerblue;
+        color: white;
+        font-size: 16px;
+        padding: 20px 20px;
+      }
+
+
+
+
+footer {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: baseline;     
+    
+}
+
+footer #copyright {
+   padding-top: 5%;
+   font-size: 2rem;
+    
+}
+
+/********************************800px & Below - Tablet View****************************/
+@media (max-width: 800px) {
+
+    .container {
+		width: 100%;
+		
+    }
+
+}
+
+
+/*500px & Below - Mobile View*/
+@media (max-width: 500px) {
+
+	.container {
+		width: 100%;
+		
+    }
+    
+}
+
+
+
+
+
