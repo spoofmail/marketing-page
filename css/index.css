@@ -96,10 +96,9 @@ button:hover{
     flex-direction:row-reverse;
     justify-content: space-evenly;
     text-align: center;
+    padding:0 10px;
 }
-.Convenience p{
-    border:1px solid red;
-}
+
 .Convenience-header-img {
     /*display:flex;
     flex-wrap:wrap;
@@ -114,6 +113,7 @@ button:hover{
     border:1px solid yellow;
     display:flex;
     align-items:center;
+    padding:0 10px;
 }
 .Anonymity-header-img{
     display:flex;
@@ -130,6 +130,7 @@ button:hover{
     display:flex;
     flex-direction:row-reverse;
     align-items:center;
+    padding:0 10px;
 }
 .Secure-header-img{
     display:flex;
@@ -141,14 +142,18 @@ button:hover{
     justify-content: center;
 }
 .Features{
-    border:1px solid yellow;
+    border:1px solid white;
     display:flex;
-    justify-content: space-around;
+    flex-direction:row;
+}
+.Features-email{
+    border:1px solid black;
 }
 .Features img{
     border:1px solid red;
-    max-width:30%;
-    height:auto;
+}
+.Features p{
+    
 }
 
 footer{
@@ -156,8 +161,20 @@ footer{
     display:flex;
     justify-content: space-evenly;
 }
-footer h3{
-    border:1px solid red;
+footer button{
+    background:#3f51b5;
+    color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+button:hover{
+    background:#303f9f;
+    color:white;
+    border-color:#3f51b5;
 }
 
 /*MEDIA QUERIES*/
@@ -171,7 +188,6 @@ footer h3{
         display:flex;
         flex-direction: column;
         align-items: center;
-        
     }
     header button{
         font-size: 28px;
@@ -195,6 +211,13 @@ footer h3{
         display:flex;
         align-items:center;
         padding:10px;
+    }
+    footer button{
+        font-size: 28px;
+        width:100%;
+    }
+    footer h3{
+        border:1px solid red;
     }
     
 }
