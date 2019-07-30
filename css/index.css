@@ -71,6 +71,12 @@ button:hover{
     display:flex;
     align-items:center;
 }
+.Secure{
+    border:1px solid yellow;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+}
 .Features{
     border:1px solid yellow;
     display:flex;
@@ -80,11 +86,13 @@ button:hover{
 .Features img{
     border:1px solid red;
 }
-.Clients{
-    border:1px solid yellow;
-}
 
 footer{
+    border:1px solid red;
+    display:flex;
+    justify-content: space-evenly;
+}
+footer h3{
     border:1px solid red;
 }
 
