@@ -227,22 +227,26 @@ button:hover{
     border:1px solid white;
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
 }
 .Features-email{
     border:1px solid black;
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin:10px;
 }
 .Features-automatically{
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin:10px;
 }
 .Features-never{
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin:10px;
 }
 .Features img{
     border:1px solid red;
