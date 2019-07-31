@@ -141,13 +141,13 @@ button:hover{
 }
 .Main-Section img{
     border:1px solid red;
-    max-width:30%;
+    max-width:90px;
     height:auto;
 }
 .Convenience-h2{
     display:flex;
     justify-content: flex-end;
-    padding:10px;
+    padding:20px;
 }
 .Convenience{
     border:1px solid red;
@@ -172,7 +172,7 @@ button:hover{
 .Anonymity-h2{
     display:flex;
     justify-content: flex-start;
-    padding:0 25px;
+    padding:20px;
 }
 .Anonymity{
     border:1px solid yellow;
@@ -196,7 +196,7 @@ button:hover{
 .Secure-h2{
     display:flex;
     justify-content: flex-end;
-    padding:0 25px;
+    padding:20px;
 }
 .Secure{
     border:1px solid yellow;
@@ -221,6 +221,7 @@ button:hover{
 .Features-h2{
     display:flex;
     justify-content: center;
+    padding:20px;
 }
 .Features{
     border:1px solid white;

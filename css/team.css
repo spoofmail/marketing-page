@@ -133,18 +133,21 @@ button:hover{
 
 main{
     display:flex;
-    max-width:30%;
+    max-width:10%;
     height:auto;
 }
 .column img{
     border:1px solid red;
-    max-width:50%;
     height:auto;
 }
 .card{
+    border:1px solid yellow;
     max-width:100%;
     height:auto;
 } 
+.container-Jack{
+    border:1px solid red;
+}
 
 
 footer{
