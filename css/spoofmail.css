@@ -22,6 +22,16 @@ h1 {
     margin-bottom: 15px;
 }
 
+.get-started-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.get-started-feature-button a {
+    text-decoration: none;
+    color: white;
+}
+
 .section-header-text {
     color: #3e3e3e;
     font-size: 3.5rem;    
