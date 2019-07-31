@@ -311,6 +311,21 @@ footer p{
         align-items:center;
         padding:10px;
     }
+    .Features{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:10px;
+    }
+    .Features-email{
+        margin:20px;
+    }
+    .Features-automatically{
+        margin:20px;
+    }
+    Features-never.{
+        margin:20px;
+    }
     .Features img{
         
     }
