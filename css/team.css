@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    color:white;
+    text-shadow: 2px 2px 4px purple;
+}
+h2, h3{
+    color: #3f51b5;
+    text-shadow: 2px 2px 4px purple;
+    font-size:30px;
+}
+a{
+    border:1px solid red;
+    text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px 4px purple;
+}
+p{
+    font-size:20px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+.container{
+    box-sizing:border-box;
+    background:#38383d;
+    max-width: 100%;
+    margin:0 auto;
+    border:2px solid red;
+    padding: 20px 1.25%;
+}
+.headline{
+    background-image: url("/images/header-background.jpg");
+    background-color:#cccccc;
+    height: 225px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.headline-container{
+    border:1px solid red;
+    /*background: #3f51b5;*/
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:24px;
+    width:100%;
+}
+.Nav-Links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 75%;
+}
+header{
+    border:1px solid red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header button{
+    background:#3f51b5;
+    color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+button:hover{
+    background:#303f9f;
+    color:white;
+    border-color:#3f51b5;
+}
+
+main{
+    display:flex;
+    
+}
+
+
+footer{
+    border:1px solid red;
+    display:flex;
+    justify-content: center;
+}
+footer p{
+    color:white;
+    text-shadow: 2px 2px 4px purple;
+    text-align: center;
+    font-size: 14px;
+}
+
