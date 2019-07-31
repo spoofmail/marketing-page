@@ -127,7 +127,8 @@ button:hover{
 
 main{
     display:flex;
-    
+    max-width:30%;
+    height:auto;
 }
 
 
