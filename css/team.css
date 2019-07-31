@@ -173,13 +173,17 @@ button:hover{
 .container-Eli{
     border:1px solid red;
 }
-
-.middle{
+.middle1{
     display:flex;
     justify-content: space-around;
     padding:25px;
 }
-.middle img{
+.middle2{
+    display:flex;
+    justify-content: space-around;
+    padding:25px;
+}
+.middle2 img{
     height:auto;
 }
 .card-Jeff{
