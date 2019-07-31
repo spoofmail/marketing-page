@@ -155,7 +155,7 @@ main{
 } 
 .container-Jack{
     border:1px solid red;
-    max-width:
+    max-width:auto;
 }
 .card-Liv{
     border:1px solid yellow;
