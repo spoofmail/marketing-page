@@ -57,7 +57,6 @@ h2, h3{
     font-size:30px;
 }
 a{
-    border:1px solid red;
     text-decoration: none;
     color:white;
     text-shadow: 2px 2px 4px purple;
@@ -72,7 +71,6 @@ p{
     background:#38383d;
     max-width: 100%;
     margin:0 auto;
-    border:2px solid red;
     padding: 20px 1.25%;
 }
 .headline{
@@ -85,7 +83,6 @@ p{
     position: relative;
 }
 .headline-container{
-    border:1px solid red;
     /*background: #3f51b5;*/
     text-align:center;
     position: absolute;
@@ -97,7 +94,6 @@ p{
     width:100%;
 }
 .headline-container h1{
-    border:1px solid red;
     height:100px;
     font-size:50px;
     padding:20px;
@@ -109,7 +105,6 @@ p{
     font-size: 85%;
 }
 header{
-    border:1px solid red;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -147,35 +142,25 @@ button:hover{
 }
 
 .card-Jack{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Jack{
-    border:1px solid red;
-}
 .card-Liv{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 }
-.container-Liv{
-    border:1px solid red;
-}
+
 .card-Eli{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 }
-.container-Eli{
-    border:1px solid red;
-}
+
 .middle1{
     display:flex;
     justify-content: space-around;
@@ -190,37 +175,24 @@ button:hover{
     height:auto;
 }
 .card-Jeff{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Jeff{
-    border:1px solid red;
-    max-width:
-}
 .card-Vincent{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Vincent{
-    border:1px solid red;
-    max-width:
-}
+
 .card-Tisha{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Tisha{
-    border:1px solid red;
-}
 .bottom{
     display:flex;
     justify-content: space-around;
@@ -230,40 +202,19 @@ button:hover{
     height:auto;
 }
 .card-Eric{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Eric{
-    border:1px solid red;
-    max-width:
-}
 .card-Dog{
-    border:1px solid yellow;
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
 } 
-.container-Dog{
-    border:1px solid red;
-    max-width:
-}
-.card-blank{
-    border:1px solid yellow;
-    max-width:20%;
-    height:auto;
-    text-align: center;
-} 
-.container-blank{
-    border:1px solid red;
-    max-width:
-}
 
 footer{
-    border:1px solid red;
     display:flex;
     justify-content: center;
 }
@@ -279,7 +230,6 @@ footer p{
         background:#38383d;
         }
     header{
-        border:1px solid red;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -306,9 +256,6 @@ footer p{
     footer button{
             font-size: 28px;
             width:100%;
-        }
-    footer h3{
-            border:1px solid red;
         }
     }
     
