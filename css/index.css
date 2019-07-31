@@ -134,7 +134,6 @@ button:hover{
 }
 
 .Main-Section{
-    border:1px solid blue;
     display:flex;
     flex-direction: column;
     /*width:100%;*/
@@ -148,21 +147,24 @@ button:hover{
     display:flex;
     justify-content: flex-end;
     padding:20px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Convenience{
     border:1px solid red;
     display:flex;
     flex-direction:row-reverse;
-    justify-content: space-evenly;
     padding:10px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Convenience p{
-    border:1px solid red;
+    border:1px solid rgb(207, 55, 55);
     display:flex;
     align-items:center;
-    width:100%;
     text-align: center;
     margin:10px;
+    background:#2a2a2e;
 }
 .Convenience-header-img {
     display:flex;
@@ -173,12 +175,16 @@ button:hover{
     display:flex;
     justify-content: flex-start;
     padding:20px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Anonymity{
     border:1px solid yellow;
     display:flex;
     align-items:center;
     padding:0 10px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Anonymity p{
     border:1px solid red;
@@ -187,6 +193,7 @@ button:hover{
     width:100%;
     text-align: center;
     margin:10px;
+    background:#2a2a2e;
 }
 .Anonymity-header-img{
     display:flex;
@@ -197,6 +204,8 @@ button:hover{
     display:flex;
     justify-content: flex-end;
     padding:20px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Secure{
     border:1px solid yellow;
@@ -204,6 +213,8 @@ button:hover{
     flex-direction:row-reverse;
     align-items:center;
     padding:0 10px;
+    max-width:1000px;
+    margin:0 auto;
 }
 .Secure p{
     border:1px solid red;
@@ -212,6 +223,7 @@ button:hover{
     width:100%;
     text-align: center;
     margin:10px;
+    background:#2a2a2e;
 }
 .Secure-header-img{
     display:flex;
@@ -228,6 +240,8 @@ button:hover{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    /*max-width:1000px;
+    margin:0 auto;*/
 }
 .Features-email{
     border:1px solid black;
