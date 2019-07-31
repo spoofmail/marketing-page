@@ -133,11 +133,19 @@ button:hover{
 }
 
 main{
-    display:flex;
-    flex-direction:column;
+    /*display:flex;
+    flex-direction:column;*/
 
     /*max-width:20%;
     height:auto;*/
+}
+.title{
+    font-size:20px;
+    padding:10px;
+}
+.font{
+    font-size:18px;
+    padding:10px;
 }
 .top{
     display:flex;
@@ -155,7 +163,6 @@ main{
 } 
 .container-Jack{
     border:1px solid red;
-    max-width:auto;
 }
 .card-Liv{
     border:1px solid yellow;
@@ -264,4 +271,47 @@ footer p{
     text-align: center;
     font-size: 14px;
 }
+/*MEDIA QUERIES*/
+@media(max-width:500px){
+    .container{
+        background:#38383d;
+        }
+    header{
+        border:1px solid red;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    header button{
+        font-size: 28px;
+        width:100%;
+        }
+    .font{
+        display:none;
+    }
+    .top{
+        /*flex-direction:column;
+        align-items:center;*/
+        }
+    .card-Jack{
+    }
+    .middle{
+        /*flex-direction:column;
+        align-items:center;*/
+    }
+    .bottom{
+        /*flex-direction:column;
+        align-items:center;*/
+    }
+    footer button{
+        font-size: 28px;
+        width:100%;
+        }
+    footer h3{
+        border:1px solid red;
+        }
+}
+    
+    
+
 
