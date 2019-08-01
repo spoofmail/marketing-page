@@ -154,12 +154,14 @@ button:hover{
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 .card-Liv{
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 }
 
 .card-Eli{
@@ -167,6 +169,7 @@ button:hover{
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 }
 
 .middle1{
@@ -187,12 +190,14 @@ button:hover{
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 .card-Vincent{
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 
 .card-Tisha{
@@ -200,6 +205,7 @@ button:hover{
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 .bottom{
     display:flex;
@@ -214,12 +220,14 @@ button:hover{
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 .card-Dog{
     max-width:20%;
     min-height:100px;
     text-align: center;
     background:#2a2a2e;
+    border-radius: 25px;
 } 
 
 footer{
