@@ -64,7 +64,7 @@ a{
 p{
     font-size:20px;
     color:white;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 1px 1px 2px purple;
 }
 .container{
     box-sizing:border-box;
@@ -140,14 +140,14 @@ button:hover{
 .Convenience-h2{
     display:flex;
     justify-content: flex-end;
-    padding:45px 0 0 0;
+    padding:70px 0 0 0;
     max-width:1000px;
     margin:0 auto;
 }
 .Convenience{
     display:flex;
     flex-direction:row-reverse;
-    padding:60px;
+    padding:30px 0 70px 0;
     max-width:1000px;
     margin:0 auto;
 }
@@ -173,7 +173,7 @@ button:hover{
 .Anonymity{
     display:flex;
     align-items:center;
-    padding:60px;
+    padding:10px 0 70px 0;
     max-width:1000px;
     margin:0 auto;
 }
@@ -200,7 +200,7 @@ button:hover{
     display:flex;
     flex-direction:row-reverse;
     align-items:center;
-    padding:60px;
+    padding:10px 0 70px 0;
     max-width:1000px;
     margin:0 auto;
 }
@@ -220,6 +220,15 @@ button:hover{
     display:flex;
     justify-content: center;
     padding:20px;
+    background:#2a2a2e;
+    color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 72px;
+    margin:25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 .Features{
     display:flex;
