@@ -106,9 +106,17 @@ p{
 }
 header{
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding:25px;
+    justify-content: center;
+    padding:20px;
+    background:#2a2a2e;
+    color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 72px;
+    margin:25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
     
 }
 header button{
@@ -215,8 +223,15 @@ button:hover{
 } 
 
 footer{
-    display:flex;
-    justify-content: center;
+    background:#3f51b5;
+    color:white;
+    border-radius: 8px;
+    border-color:#303f9f;
+    padding: 15px 72px;
+    margin:25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 footer p{
     color:white;
