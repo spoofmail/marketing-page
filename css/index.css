@@ -313,8 +313,12 @@ footer p{
     .Anonymity{
         display:flex;
         flex-direction:column-reverse;
-        align-items:center;
         padding:10px;
+    }
+    .Anonymity p{
+        display:flex;
+        justify-content: center;
+        margin:0 0 10px 0;
     }
     .Secure-h2{
         justify-content: center;
@@ -324,6 +328,9 @@ footer p{
         flex-direction:column-reverse;
         align-items:center;
         padding:10px;
+    }
+    .Secure p{
+        margin:0 0 10px 0;
     }
     .Features{
         display:flex;
@@ -342,7 +349,7 @@ footer p{
     }
    
     .Features p{
-        font-size:16px;
+        font-size:24px;
     }
     footer button{
         font-size: 28px;
