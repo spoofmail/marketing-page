@@ -47,6 +47,8 @@ Privacy –Internet privacy should be your concern whether you shop online, visi
   - Open the home page 'spoofmail.html' in your Internet Browser of choice
   - Open the team bio page 'theteam.html' in your Internet Browser of choice or use 'The Team' navigation link on the home page
   - Use the 'Get Started' button on the SpoofMail marketing site to launch the Spoof Mail application
+  - The spoofmail.css file contains the CSS styles for the home page
+  - The theteam.css file contains the CSS styles for the team page
   
 --Spoof Mail Team--
 
