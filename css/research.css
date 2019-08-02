@@ -128,13 +128,30 @@ header{
     font-size:18px;
     padding:10px;
 }
-.research1{
-    max-width:20%;
+.Industry{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px;
+}
+.Industry img{
+    max-width:60%;
     min-height:100px;
-    text-align: center;
-    background:#2a2a2e;
+    padding:10px;
     border-radius: 25px;
-} 
+}
+.Decade{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px;
+}
+.Decade img{
+    max-width:60%;
+    min-height:100px;
+    padding:10px;
+    border-radius: 25px;
+}
 
 footer{
     background:#3f51b5;
