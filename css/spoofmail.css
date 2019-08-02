@@ -1088,23 +1088,18 @@ footer {
 }
 
 .container .contact-us-section .contact-form-div .contact-form .contact-header-text {
-    font-size: 3rem;
-    
+    font-size: 3rem;    
 }
-
 
 /*send message button*/
 .send-message-button {    
-    width: 50%;
-    
+    width: 50%;    
 }
-
 
 /***************************************FOOTER - MOBILE**************************/
 footer {
     width: 100%;
-    height: 100%;     
-    
+    height: 100%; 
 }       
     
 
