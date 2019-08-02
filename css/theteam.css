@@ -110,12 +110,13 @@ header nav a {
 }
 
 header nav a.active {    
-    border-bottom: 3px solid #e65100;
+    color: #e65100;
 }
 
 header nav a:hover {
-    border-bottom: 3px solid #e65100;
+    color: #e65100;
 }
+
 
 .container .section-header {
     display: flex;
@@ -166,10 +167,9 @@ header nav a:hover {
 
 }
 
-/*.team-images-div:last-child {
-    background-color: red;
-    align-content: center;
-}  */ 
+.team-images-div:last-child {    
+    margin: 0 auto;
+}  
 
 /*******************************TEAM PICTURES********************************/
 .flip-card {
