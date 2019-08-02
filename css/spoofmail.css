@@ -189,7 +189,7 @@ header nav a:hover {
 }
 
 .container .call-to-action-section .get-started-button:hover {
-    background-color: dodgerblue;
+    background-color: #303f9f;
     color: white;
 }
 
@@ -399,7 +399,7 @@ header nav a:hover {
 }
 
 .get-started-feature-button:hover {
-    background-color: dodgerblue;
+    background-color: #303f9f;
     color: white;
 }
 
@@ -419,7 +419,7 @@ header nav a:hover {
 }
 
 .get-started-feature-button:hover {
-    background-color: dodgerblue;
+    background-color: #303f9f;
     color: white;
 }
 
@@ -495,7 +495,7 @@ header nav a:hover {
     display: flex;    
     display: block;
     text-align: center;
-    background-color: dodgerblue;
+    background-color: #303f9f;
     color: white;
     font-family: 'Montserrat', sans-serif;
     width: 50%;
