@@ -81,6 +81,7 @@ p{
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    border-radius: 25px;
 }
 .headline-container{
     /*background: #3f51b5;*/
