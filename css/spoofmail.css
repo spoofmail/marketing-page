@@ -199,7 +199,7 @@ header nav a:hover {
 .slideshow-container {
     max-width: 100%;     
     position: relative;
-    margin: auto;
+    margin: auto;    
         
   }
   
@@ -303,8 +303,8 @@ header nav a:hover {
 .container .features-section {
     display: flex;
     flex-direction: column;
-    width: 80%;    
-    height: auto;
+    width: 100%;    
+    height: auto;   
     
 }
 
@@ -342,11 +342,11 @@ header nav a:hover {
 }
 
 .container .features-section .features-div .feature-three-text-div {
-    width: 30%;
+    max-width: width: 30%;
 }
 
 .container .features-section .features-div .feature-three-img {
-    width: 70%;
+    max-width: 70%;
     
 }
 
@@ -370,6 +370,7 @@ header nav a:hover {
     /*background-image: url("../images/data-breach.jpg");        
     background-repeat: no-repeat;
     background-size: 100% 100%; */
+    max-width: 100%;
 }
 
 .feature-three-img img {
