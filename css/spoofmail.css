@@ -11,9 +11,8 @@ html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
     /*background-color: #e9ebee;*/
-    background-color: white;   
-   
-    /*background-color: #f9cb80;*/
+    background-color: white;      
+    
 }
 
 h1 {
@@ -35,8 +34,7 @@ h1 {
 .section-header-text {
     color: #3e3e3e;
     font-size: 3.5rem;    
-    letter-spacing: 5%;
-    
+    letter-spacing: 5%;    
     text-align: center;
 }
 
@@ -44,14 +42,15 @@ p {
     font-size: 2rem;
 }
 
-.container {
+.container {    
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;      
+    margin: 0 auto;     
+     
 }
 
 .container header {
@@ -60,7 +59,8 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: 2%;
-    border-radius: 2%;        
+    border-radius: 2%;      
+       
 }
 
 .container header .logo-section {
@@ -130,6 +130,7 @@ header nav a:hover {
 
 
 .container .call-to-action-section {
+    
     box-shadow: 0px 0px 20px 0px #333434;
     border-radius: 3px;    
     display: flex;    
@@ -195,17 +196,25 @@ header nav a:hover {
 
 /********************CAROUSEL STYLES - DESKTOP***********************/
 
+.container .slideshow-section {
+    width: 80%;
+    
+}
+
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100%;     
+    width: 100%;     
     position: relative;
-    margin: auto;    
+    margin: auto;
+    
         
   }
   
   /* Hide the images by default */
   .mySlides {
+    width: 100%;    
     display: none;
+    
   }
   
   /* Next & previous buttons */
@@ -243,8 +252,7 @@ header nav a:hover {
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
-    /*text-shadow: 8px 8px 8px rgba(1, 1, 1, 0.25); */
+    text-align: center;    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  
     font-weight: bold;
   }
@@ -257,10 +265,15 @@ header nav a:hover {
     position: absolute;
     top: 0;
   }
+
+  .carousel-image {
+      width: 100%; 
+      
+  }
   
-  .carousel-image img{
-      width: 800px;
-      height: 400px;
+  .carousel-image img {     
+      text-align: center;      
+     
   }
   
   /* The dots/bullets/indicators */
@@ -285,6 +298,8 @@ header nav a:hover {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+    width: 100%; 
+
   }
   
   @-webkit-keyframes fade {
@@ -304,7 +319,8 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     width: 100%;    
-    height: auto;   
+    height: auto; 
+    
     
 }
 
@@ -341,16 +357,6 @@ header nav a:hover {
     
 }
 
-.container .features-section .features-div .feature-three-text-div {
-    max-width: width: 30%;
-}
-
-.container .features-section .features-div .feature-three-img {
-    max-width: 70%;
-    
-}
-
-
 .feature-one-img {
     background-image: url("../images/email-symbol.jpg");      
     background-repeat: no-repeat;
@@ -361,21 +367,31 @@ header nav a:hover {
 .feature-two-img {
     background-image: url("../images/spam-mail-box.jpg");    
     background-repeat: no-repeat;
-    background-size: 100% 100%;    
-    
+    background-size: 100% 100%;        
 
+}
+
+.container .features-section .features-div .feature-three-text-div {
+    width: 30%;    
+}
+
+.container .features-section .features-div .feature-three-img {
+    width: 70%;    
+    
 }
 
 .feature-three-img {
     /*background-image: url("../images/data-breach.jpg");        
     background-repeat: no-repeat;
     background-size: 100% 100%; */
-    max-width: 100%;
+    width: 100%;
 }
 
 .feature-three-img img {
-    max-width: 100%;
-    max-height: 100%;
+   width: 100%;
+   height: 100%;
+    object-fit: scale-down;    
+    
 }
 
 .feature-four-img {
@@ -411,7 +427,7 @@ header nav a:hover {
     background-color: #e65100;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    width: 75%;
+    width: 50%;    
     padding: 5% 4% 5% 4%;
     font-size: 1.5vw;
     font-weight: bold;
@@ -442,8 +458,7 @@ header nav a:hover {
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    align-content: center;       
-       
+    align-content: center;        
     
 }
 
@@ -681,7 +696,7 @@ header nav a:hover {
     color: white;
 }
 
-/********************CAROUSEL STYLES - DESKTOP***********************/
+/********************CAROUSEL STYLES - LargeScreen Views***********************/
 
 /* Slideshow container */
 .slideshow-container {
@@ -784,15 +799,16 @@ header nav a:hover {
     from {opacity: .4} 
     to {opacity: 1}
   }
-  /*****************************END CAROUSEL - DESKTOP*********************************************/
+  /*****************************END CAROUSEL - LargeScreen Views*********************************************/
 
-  /**********************************FEATURES SECTION - DESKTOP**************************************/
+  /**********************************FEATURES SECTION - LargeScreen Views**************************************/
 
 .container .features-section {
     display: flex;
     flex-direction: column;
     width: 80%;    
     height: auto;
+    margin: auto;
     
 }
 
@@ -860,10 +876,10 @@ header nav a:hover {
     background-size: 100% 100%; */
 }
 
-.feature-three-img img {
+/*.feature-three-img img {
     max-width: 100%;
     max-height: 100%;
-}
+}*/
 
 .feature-four-img {
     background-image: url("../images/email-symbol.jpg");    
@@ -911,7 +927,7 @@ header nav a:hover {
     color: white;
 }
 
-/***************************CONTACT US SECTION - DESKTOP******************************************/
+/***************************CONTACT US SECTION - LargeScreen Views******************************************/
 .container .contact-us-section {
     width: 100%;
     height: 100%;
@@ -999,7 +1015,7 @@ header nav a:hover {
     color: white;
 }
 
-/*********************************************FOOTER - DESKTOP*******************************************/
+/*********************************************FOOTER - LargeScreen Views*******************************************/
 footer {
     width: 100%;
     height: 20px;
@@ -1052,16 +1068,14 @@ footer #copyright {
     
 
    .container header .logo-section .logo-text-div {
-        width: 60%;/*frees up space so the icon-div and the logo-text-div can be centered*/   
+        width: 60%;/*frees up space so the icon-div and the logo-text-div can be centered*/               
              
-             
-    }
-        
+    }        
          
     header nav {
         width: 100%; 
         height: 100%;   
-        justify-content: space-between;              
+        justify-content: space-between;             
                      
     }
     
@@ -1225,6 +1239,13 @@ footer #copyright {
         margin-top: 5%;
     }
 
+    .container .features-section .feature-three-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
     
     .container .features-section .features-div .features-text-button-div {
         width: 100%;
@@ -1232,8 +1253,7 @@ footer #copyright {
         
     }
 
-    .container .features-section .features-div .features-image-div {
-                
+    .container .features-section .features-div .features-image-div {                
         width: 100%;         
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -1241,17 +1261,46 @@ footer #copyright {
     }
 
     .container .features-section .features-div .feature-three-text-div {
-        width: 30%;
+        width: 100%;
+        
     }
     
     .container .features-section .features-div .feature-three-img {
-        width: 70%;
+        width: 100%;
+        
+        
     }
 
+    .container .features-section .features-div .features-text-button-div .feature-three-text-div {
+        width: 30%;
+    }
     
+       
+    .feature-three-img {        
+        width: 100%;
+        
+    }
+    
+    .feature-three-img img {
+       width: 100%;
+       height: 100%;    
+       object-fit: scale-down;
+             
+        
+    }    
 
     .container .features-section .features-div .features-text-button-div .get-started-feature-button {
         font-size: 2.5vw;
+    }
+
+    .feature-three-button {
+       
+        width: 25%;    
+        padding: 2% 2% 2% 2%;
+        font-size: 1.5vw;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
     }
 
 /*****************************CONTACT US SECTION - TABLET******************************************/
@@ -1262,8 +1311,7 @@ footer #copyright {
 }
 
 
-.container .contact-us-section  .contact-form-div {
-    
+.container .contact-us-section  .contact-form-div {    
     width:100%;
     height: 100%;        
        
@@ -1272,15 +1320,13 @@ footer #copyright {
 
 .container .contact-us-section  .contact-form-div .contact-form {
     width: 80%;
-    height: 80%;
-    
+    height: 80%;    
 }
 
 
 
 /*send message button*/
-.send-message-button {
-    
+.send-message-button {    
     width: 50%;
     
 }
@@ -1559,6 +1605,44 @@ footer {
     text-align: center;
     font-size: 3vw;
 }
+
+.container .features-section .features-div .feature-three-text-div {
+    max-width: 100%;
+}
+
+.container .features-section .features-div .feature-three-img {
+    display: none;
+    
+}
+
+
+.feature-one-img {
+    background-image: url("../images/email-symbol.jpg");      
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+
+}
+
+.feature-two-img {
+    background-image: url("../images/spam-mail-box.jpg");    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    
+
+}
+
+.feature-three-button {
+       
+    width: 50%;    
+    padding: 3% 3% 3% 3%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
 
 /*****************************CONTACT US SECTION - MOBILE******************************************/
 
