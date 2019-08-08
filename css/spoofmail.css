@@ -282,12 +282,8 @@ header nav a:hover {
   .carousel-image {
       width: 100%;      
       
-  }
-  
-  .carousel-image img {       
-     
-  }
-  
+  }  
+    
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -372,6 +368,7 @@ header nav a:hover {
     background-image: url("../images/email-symbol.jpg");      
     background-repeat: no-repeat;
     background-size: 100% 100%; 
+    /*background-size: cover;*/
 
 }
 
@@ -553,8 +550,6 @@ footer #copyright {
    font-size: 2rem;
     
 }
-
-
 
 /********************************800px & Below - Tablet View****************************/
 @media (max-width: 800px) {
