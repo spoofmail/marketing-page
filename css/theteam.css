@@ -29,7 +29,7 @@ h1 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .container {
@@ -55,7 +55,7 @@ p {
 }
 
 .container header .logo-section {
-    width: 40%;
+    width: 30%;
     display: flex;    
     justify-content: center;
     align-items: center;
@@ -93,20 +93,23 @@ header .logo-section .logo-icon-div .spoof-mail-icon {
 }
 
 header nav {
-    width: 60%;
+    width: 70%;
     display: flex;    
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
 }
+
 
 header nav a {    
     margin:0;
-    padding: 1%;
+    width: 25%;
+    /*padding: 1%;*/
     text-decoration: none;
+    text-align:center;
     color: #3e3e3e;    
-    font-size: 1.5vw;    
-    letter-spacing: 2%;   
-    font-weight: bold;
+    font-size: 1.5rem;    
+    /*letter-spacing: 2%;   */
+    font-weight: bold;    
 }
 
 header nav a.active {    
@@ -234,496 +237,7 @@ footer #copyright {
   
 }
 
-/********************************2000px & Below - LargeScreen Views****************************/
-@media (max-width: 2000px) {
 
-    
-    .container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;      
-    }
-    
-    .container header {
-        width: 100%;
-        height: 60px;
-        display: flex;
-        flex-direction: row;
-        margin-top: 2%;
-        border-radius: 2%;        
-    }
-    
-    .container header .logo-section {
-        width: 40%;
-        display: flex;    
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    .container header .logo-section .logo-icon-div {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 20%;
-        height: 100%;
-        
-    }
-    
-    header .logo-section .logo-icon-div .spoof-mail-icon {
-        color: black;
-        font-size: 5rem;
-    }
-    
-    .container header .logo-section .logo-text-div {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 80%;
-        height: 100%;
-        font-size: 3.5rem;
-        padding-bottom: 3%;
-        padding-left: 1%;
-        
-    }
-    
-    .container header .logo-section .logo-text-div .logo-spoof-text {
-        color: #e65100;
-    }
-    
-    header nav {
-        width: 60%;
-        display: flex;    
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    
-    header nav a {    
-        margin:0;
-        padding: 1%;
-        text-decoration: none;
-        color: #3e3e3e;    
-        font-size: 1.5vw;    
-        letter-spacing: 2%;   
-        font-weight: bold;
-    }
-    
-    
-    header nav a.active {    
-        color: #e65100;
-    }
-    
-    header nav a:hover {
-        color: #e65100;
-    }
-    
-    
-    .container .call-to-action-section {
-        box-shadow: 0px 0px 20px 0px #333434;
-        border-radius: 3px;    
-        display: flex;    
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;    
-        width: 100%;
-        height: 500px;    
-        background-image: url("../images/spoofmail-cta-image.jpg");
-        background-repeat: no-repeat;    
-        background-size: cover;    
-        opacity: 0.8; 
-            
-    }
-    
-    .container .call-to-action-section .call-to-action-text-div {    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: 50%;       
-    
-    }
-    
-    .container .call-to-action-section .call-to-action-text-div .call-to-action-header-text {
-        color: rgb(255,255,255);
-        font-size: 2.5vw;
-        text-align: center;
-        letter-spacing: 5%;
-        font-weight: 700;
-        font-family: 'Montserrat', sans-serif;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);    
-    }
-    
-    .container .call-to-action-section .call-to-action-button-div {
-        display: flex;
-        justify-content: center;
-        width: 60%;
-        height: auto;
-        
-    }
-    
-    .container .call-to-action-section .get-started-button {
-        display: flex;    
-        display: block;
-        text-align: center;
-        background-color: #e65100;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        width: 35%;
-        padding: 2% 2% 2% 2%;
-        font-size: 1.5vw;
-        font-weight: bold;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    .container .call-to-action-section .get-started-button:hover {
-        background-color: #303f9f;
-        color: white;
-    }
-    
-    /********************CAROUSEL STYLES - DESKTOP***********************/
-    
-    /* Slideshow container */
-    .slideshow-container {
-        max-width: 100%;     
-        position: relative;
-        margin: auto;
-            
-      }
-      
-      /* Hide the images by default */
-      .mySlides {
-        display: none;
-      }
-      
-      /* Next & previous buttons */
-      .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-      }
-      
-      /* Caption text */
-      .text {
-        color: #f2f2f2;
-        font-size: 3rem;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-        /*text-shadow: 8px 8px 8px rgba(1, 1, 1, 0.25); */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  
-        font-weight: bold;
-      }
-      
-      /* Number text (1/3 etc) */
-      .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-      
-      .carousel-image img{
-          width: 800px;
-          height: 400px;
-      }
-      
-      /* The dots/bullets/indicators */
-      .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-      }
-      
-      .active, .dot:hover {
-        background-color: #717171;
-      }
-      
-      /* Fading animation */
-      .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
-      
-      @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-      }
-      
-      @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-      }
-      /*****************************END CAROUSEL - DESKTOP*********************************************/
-    
-      /**********************************FEATURES SECTION - DESKTOP**************************************/
-    
-    .container .features-section {
-        display: flex;
-        flex-direction: column;
-        width: 80%;    
-        height: auto;
-        
-    }
-    
-    .container .features-section .features-div {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: auto;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-    
-    
-    .container .features-section .features-div .features-text-button-div {
-        display: flex;
-        flex-direction:column;
-        width: 50%;
-        justify-content: space-between;
-        
-        
-    }
-    
-    .container .features-section .features-div .features-text-button-div .features-header-text {
-        color: #3e3e3e;
-        font-size: 3rem;    
-        letter-spacing: 5%;
-    }
-    
-    .container .features-section .features-div .features-image-div {
-        display: flex;    
-        width: 40%;         
-        background-repeat: no-repeat;
-        background-size: 100% 100%;    
-        
-    }
-    
-    .container .features-section .features-div .feature-three-text-div {
-        width: 30%;
-    }
-    
-    .container .features-section .features-div .feature-three-img {
-        width: 70%;
-        
-    }
-    
-    
-    .feature-one-img {
-        background-image: url("../images/email-symbol.jpg");      
-        background-repeat: no-repeat;
-        background-size: 100% 100%; 
-    
-    }
-    
-    .feature-two-img {
-        background-image: url("../images/spam-mail-box.jpg");    
-        background-repeat: no-repeat;
-        background-size: 100% 100%;    
-        
-    
-    }
-    
-    .feature-three-img {
-        /*background-image: url("../images/data-breach.jpg");        
-        background-repeat: no-repeat;
-        background-size: 100% 100%; */
-    }
-    
-    .feature-three-img img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    
-    .feature-four-img {
-        background-image: url("../images/email-symbol.jpg");    
-        background-repeat: no-repeat;
-        background-size: 100% 100%; 
-    }
-    
-    .get-started-feature-button {
-        display: flex;    
-        display: block;
-        text-align: center;
-        background-color: #e65100;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        width: 50%;
-        padding: 3% 2% 3% 2%;
-        font-size: 1.5vw;
-        font-weight: bold;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    .get-started-feature-button:hover {
-        background-color: #303f9f;
-        color: white;
-    }
-    
-    .feature-three-button {
-        display: flex;    
-        display: block;
-        text-align: center;
-        background-color: #e65100;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        width: 75%;
-        padding: 5% 4% 5% 4%;
-        font-size: 1.5vw;
-        font-weight: bold;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    .get-started-feature-button:hover {
-        background-color: #303f9f;
-        color: white;
-    }
-    
-    /***************************CONTACT US SECTION - DESKTOP******************************************/
-    .container .contact-us-section {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: #2e2e2e;
-        justify-content: center;
-        align-items: center; 
-    }
-    
-    
-    .container .contact-us-section  .contact-form-div {
-        display: flex;
-        width:70%;
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;       
-           
-        
-    }
-    
-    .container .contact-us-section  .contact-form-div .contact-form {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        height: 100%;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .container .contact-us-section .contact-form-div .contact-form .contact-header-text {
-        color: rgb(255,255,255);
-        font-size: 4rem;
-        text-align: center;
-        letter-spacing: 5%;
-        font-weight: 700;
-        font-family: 'Montserrat', sans-serif;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    
-    .form-input {
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-    }
-    
-    /*text area*/
-    #contactus-message{
-        /*width: 320px;*/
-        height: 280px;
-        
-        margin-bottom: 10px;
-        display: block;
-    }
-    
-    /*text box*/
-    #contactus-textbox{
-        /*width: 320px;*/
-        height: 40px;
-        margin-bottom: 10px;
-        display: block;
-    }
-    
-    /*send message button*/
-    .send-message-button {
-        display: flex;    
-        display: block;
-        text-align: center;
-        background-color: #303f9f;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-        width: 50%;
-        padding: 2% 1% 2% 1%;
-        font-size: 2rem;
-        font-weight: bold;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    
-    .send-message-button:hover {
-        background-color: #e65100;
-        color: white;
-    }
-    
-    /*********************************************FOOTER - DESKTOP*******************************************/
-    footer {
-        width: 100%;
-        height: 20px;
-        display: flex;
-        justify-content: center; 
-        align-items: baseline;     
-        
-    }
-    
-    footer #copyright {
-       padding-top: 5%;
-       font-size: 2rem;
-        
-    }
-        
-    
-    
-}/******************END LARGE 2000PX SCREEN VIEWS**************/
     
 
 /********************************800px & Below - Tablet View****************************/
@@ -766,22 +280,29 @@ footer #copyright {
            
         }
              
-             
         header nav {
             width: 100%; 
             height: 100%;   
-            justify-content: center;                
-            
+            /*justify-content: space-between;      */       
+                         
         }
         
-        header nav a {                
+              
+        header nav a {
+            /*display: block;*/
+            /*margin:2% 0;*/       
             margin: 0;
-            padding: 1%;        
-            font-size: 3vw;   
+            /*padding: 1%;   */     
+            font-size: 1.4rem;   
             letter-spacing: 2%;
             font-weight: bold;
         }
+
         /*******************************************TEAM SECTION*********************************/
+
+    p {
+        font-size: 1.6rem;
+    }
     
     .container .team-section {
         width: 100%;
@@ -854,17 +375,18 @@ footer #copyright {
         width: 100%; 
         height: 100%;   
         justify-content: center;  
-        align-items: center;    
+        align-items: center;
+        
         
     }   
-
-
+    
+    
     header nav a {		
 		width: 100%;		
-        font-size: 4vw;		
+        font-size: 3vw;		
 		border-bottom: 1px solid gray;
 		text-align: center;
-	}    
+	}
     
     .container .team-intro-div {
         width: 100%;
